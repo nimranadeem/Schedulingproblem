@@ -1,0 +1,27 @@
+print("Enter the number of processes:")
+processinp=int(input()) 
+arrivaltime[10]
+bursttime[10]
+remainingtime[10]
+tat=0
+wt=0
+rt=0
+et=0
+availabletime=0
+for num in range(0,processinp):
+	print("Enter arrival time for processes:")
+        arrivaltime=input()
+        print("Enter burst time for processes:")
+        bursttime=input()
+        remainingtime[num]=bursttime[num]
+print("\nProcess\t ,Turnaround Time,Waiting Time\n")
+for num in range(0,processinp):
+        if(arrivaltime[num]<=availabletime && remainigtime[num]<remainingtime[smallest] && remainingtime[num]>0)
+		smallest=num
+        remainingtime[smallest]--
+        if(remainingtime[smallest]==0)
+		rt=rt+1
+                et=availabletime+1
+                print("Smallesttime,Endtime"+str(smallest+1)+str(et)-bursttime[smallest]-arrivaltime[smallest]
+                tat+=et-arrivaltime[smallest]
+print("Turnaround time is of each process"+ wt=wt*1)
